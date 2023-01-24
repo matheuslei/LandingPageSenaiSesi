@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header><img src="./img/logo.png" alt="Logo" /></header>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+    <form action="www.site.com.br" method="post">
+      <h1>Formulário de Contato</h1>
+      <p>Preencha os dados abaixo e envie sua mensagem de contato.</p>
+      <fieldset>
+        <legend>Formulário de Contato</legend>
+        <div>
+          <label for="txtNome">Nome:</label><br />
+          <input
+            type="text"
+            id="txtNome"
+            placeholder="Digite seu nome"
+            required
+          />
+          <br />
+          <br />
+          <label for="txtDate">Data de Nascimento:</label><br />
+          <input
+            type="date"
+            id="txtDate"
+            placeholder="Digite seu nome"
+            required
+          />
+          <br />
+          <br />
+          <label for="txtSexo">Sexo:</label>
+          <br />
+          <input type="radio" name="Masculino" id="checkM" />
+          <label>Masculino</label>
+          <input type="radio" name="Ferminino" id="checkF" />
+          <label>Ferminino</label>
+          <br />
+          <br />
+          <label for="txtEndereco">Endereço</label><br />
+          <input type="text" id="txtEndereco" />
+          <br />
+          <br />
+          <label for="txtEstado">Estado:</label><br />
+          <select>
+            <option value="">- Selecione-</option>
+            <option value="RJ">RJ</option>
+            <option value="SP">SP</option>
+            <option value="SC">SC</option>
+          </select>
+          <br />
+          <br />
+          <label for="txtCidade">Cidade::</label><br />
+          <select>
+            <option value="">- Selecione-</option>
+            <option value="RJ">RJ</option>
+            <option value="SP">SP</option>
+            <option value="SC">SC</option>
+          </select>
+          <br />
+          <br />
+          <label for="numCelular">Celular:</label><br />
+          <input type="text" placeholder="(##) #####-####" />
+          <br />
+          <br />
+          <label for="txtMail">E-mail:</label><br />
+          <input type="mail" />
+          <br />
+          <br />
+          <label for="txtArea">Área de Interesse:</label><br />
+          <input type="checkbox" /> <label for="">HTML</label>
+          <input type="checkbox" /> <label for="">CSS</label>
+          <input type="checkbox" /> <label for="">JavaScript</label>
+          <br />
+          <br />
+          <label for="txtMensagem"> Mensagem:</label><br />
+          <br />
+          <textarea name="mensagem" id="txtMensagem" rows="5"></textarea>
+
+          <br /><br />
+          <input type="submit" value="Enviar" />
+        </div>
+      </fieldset>
+    </form>
+    <footer>
+      <div>
+        <ul>
+          <li><img src="./img/instagram.png" alt="Instagram" /></li>
+          <li><img src="./img/twitter.png" alt="Twitter" /></li>
+          <li><img src="./img/facebook.png" alt="Facebook" /></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
